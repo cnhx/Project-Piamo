@@ -1,76 +1,104 @@
 
 skeleton.png
-size: 505,126
+size: 959,990
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-a_leg_0
+body
   rotate: false
-  xy: 490, 66
-  size: 12, 24
-  orig: 12, 24
+  xy: 407, 550
+  size: 261, 220
+  orig: 261, 220
   offset: 0, 0
   index: -1
-b_arm_0
+hair
   rotate: false
-  xy: 226, 19
-  size: 29, 19
-  orig: 29, 19
+  xy: 702, 863
+  size: 227, 127
+  orig: 227, 127
   offset: 0, 0
   index: -1
-b_arm_0.1
+head_closeeye
   rotate: false
-  xy: 163, 6
-  size: 33, 32
-  orig: 33, 32
+  xy: 2, 682
+  size: 403, 308
+  orig: 403, 308
   offset: 0, 0
   index: -1
-b_arm_1
+head_normal
   rotate: false
-  xy: 226, 2
-  size: 32, 15
-  orig: 32, 15
+  xy: 2, 372
+  size: 403, 308
+  orig: 403, 308
   offset: 0, 0
   index: -1
-b_arm_1.1
+leftarm1
   rotate: false
-  xy: 198, 13
-  size: 26, 25
-  orig: 26, 25
+  xy: 407, 489
+  size: 59, 59
+  orig: 59, 59
   offset: 0, 0
   index: -1
-b_body
+leftarm2
   rotate: false
-  xy: 280, 36
-  size: 105, 90
-  orig: 105, 90
+  xy: 702, 828
+  size: 81, 33
+  orig: 81, 33
   offset: 0, 0
   index: -1
-b_head_1
+leftear
   rotate: false
-  xy: 2, 4
-  size: 159, 122
-  orig: 160, 123
-  offset: 1, 0
-  index: -1
-b_head_1-1
-  rotate: false
-  xy: 163, 40
-  size: 115, 86
-  orig: 115, 86
+  xy: 407, 772
+  size: 293, 218
+  orig: 293, 218
   offset: 0, 0
   index: -1
-b_head_1-2
+leftleg1
   rotate: false
-  xy: 387, 31
-  size: 101, 95
-  orig: 101, 95
+  xy: 2, 2
+  size: 32, 52
+  orig: 32, 52
   offset: 0, 0
   index: -1
-b_leg_0.1
+leftleg2
   rotate: false
-  xy: 490, 92
-  size: 15, 34
-  orig: 15, 34
+  xy: 670, 704
+  size: 28, 66
+  orig: 28, 66
+  offset: 0, 0
+  index: -1
+rightarm1
+  rotate: false
+  xy: 2, 56
+  size: 84, 72
+  orig: 84, 72
+  offset: 0, 0
+  index: -1
+rightarm2
+  rotate: false
+  xy: 262, 318
+  size: 72, 52
+  orig: 72, 52
+  offset: 0, 0
+  index: -1
+rightear
+  rotate: false
+  xy: 2, 130
+  size: 258, 240
+  orig: 258, 240
+  offset: 0, 0
+  index: -1
+rightleg1
+  rotate: false
+  xy: 88, 76
+  size: 32, 52
+  orig: 32, 52
+  offset: 0, 0
+  index: -1
+rightleg2
+  rotate: false
+  xy: 931, 924
+  size: 28, 66
+  orig: 28, 66
   offset: 0, 0
   index: -1

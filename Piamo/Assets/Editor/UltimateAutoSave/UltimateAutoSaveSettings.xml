@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<UltimateAutoSaveSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <enableSave>true</enableSave>
+  <saveScene>true</saveScene>
+  <saveAssets>true</saveAssets>
+  <saveOnTime>true</saveOnTime>
+  <saveInterval>1</saveInterval>
+  <saveOnPlay>true</saveOnPlay>
+  <saveAsCopy>false</saveAsCopy>
+  <savePath>/Users/Summer/Workshop/Project-Piamo/Piamo/Assets</savePath>
+  <suffix>_bak</suffix>
+  <enableDebug>true</enableDebug>
+</UltimateAutoSaveSettings>
