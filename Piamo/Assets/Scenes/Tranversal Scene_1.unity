@@ -1228,6 +1228,7 @@ GameObject:
   - 50: {fileID: 554272703}
   - 61: {fileID: 554272702}
   - 114: {fileID: 554272705}
+  - 114: {fileID: 554272704}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1313,6 +1314,18 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
+--- !u!114 &554272704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 554272698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 124a0ce551b7a4314b7be3b4070c7d99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moving: {x: 0, y: 0}
 --- !u!114 &554272705
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1327,6 +1340,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   maxVelocity: {x: 3, y: 5}
+  jetSpeed: 15
+  airSpeedMultiplier: .300000012
 --- !u!1 &582793747
 GameObject:
   m_ObjectHideFlags: 0
@@ -2216,7 +2231,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 8
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -2235,7 +2250,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1515271927}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -22.4993591, y: -20.583149, z: -100}
+  m_LocalPosition: {x: -20, y: -17, z: -100}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1800208081}
